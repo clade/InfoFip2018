@@ -20,7 +20,7 @@ Voir `les notes de cours <https://clade.github.io/InfoFip2018/projets/package.ht
 
 * Un package est un répertoire contenant un fichier ``__init__.py``, des modules et des packages
 
-* Pour importer un package ou un module, il doit être dans un répertoire de la liste  donnée pas ``sys.path``, soit le répertoire courant (``os.getcwd()``) ou un repertoire mis par défaut. Il est possible de rajouter un répertoire manuellement dans cette liste (``sys.path.append(...)``)
+* Pour importer un package ou un module, il doit être dans un répertoire de la liste donnée pas ``sys.path``, c'est à dire soit le répertoire courant (``os.getcwd()``), soit un répertoire mis par défaut. Il est possible de rajouter un répertoire manuellement dans cette liste (``sys.path.append(...)``)
 
 * Un package n'est importé qu'une seule fois. Ceci est en particulier valable lors de l'utilisation d'une console. Les modifications de la librairie ne seront pas prises en compte. La console IPython utilisée par spyder essaye de recharger automatiquement les modules, en général cela fonctionne. Mais en cas de doute, le plus simple est de redémarrer la console. 
 
