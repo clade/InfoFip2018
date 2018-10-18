@@ -7,7 +7,7 @@ Calcul formel
 C.f. le sujet de TD
 
 Remarques : 
-    * Il faut éviter le copier/coller
+    * Il faut éviter le copier/coller d'une classe à l'autre.
 
     * On peut commencer par écrire une méthode dans une sous classe particulière, tester, et ensuite essayer de généraliser. 
 
@@ -22,10 +22,10 @@ Voir `les notes de cours <https://clade.github.io/InfoFip2018/projets/package.ht
 
 * Pour importer un package ou un module, il doit être dans un répertoire de la liste  donnée pas ``sys.path``, soit le répertoire courant (``os.getcwd()``) ou un repertoire mis par défaut. Il est possible de rajouter un répertoire manuellement dans cette liste (``sys.path.append(...)``)
 
-* Un packate n'est importé qu'une seule fois. Ceci est en particulier valable lors de l'utilisation d'une console. Les modification de la librairie ne seront pas prises en compte. La console IPython utilisée par spyder essaye de recharger automatiquement les modules, en général cela fonctionne. Mais en cas de doute, le plus simple est de redémarer la console. 
+* Un package n'est importé qu'une seule fois. Ceci est en particulier valable lors de l'utilisation d'une console. Les modifications de la librairie ne seront pas prises en compte. La console IPython utilisée par spyder essaye de recharger automatiquement les modules, en général cela fonctionne. Mais en cas de doute, le plus simple est de redémarrer la console. 
 
-Test unitaires
---------------
+Tests unitaires
+---------------
 
 Voir `les notes de cours <https://clade.github.io/InfoFip2018/projets/test_unitaire.html>`_ et la correction du TD. 
 
