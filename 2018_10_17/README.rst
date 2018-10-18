@@ -29,7 +29,7 @@ Tests unitaires
 
 Voir `les notes de cours <https://clade.github.io/InfoFip2018/projets/test_unitaire.html>`_ et la correction du TD. 
 
-La façon habituelle de lancer les tests est d'aller dans une console et d'exécuter :
+La façon habituelle de lancer les tests est d'aller dans une console et d'exécuter ::
 
     python -m unittest discover
     python -m unittest my_package.test.test_mod1
