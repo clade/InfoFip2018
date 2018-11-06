@@ -1,0 +1,46 @@
+Rayon (ce qui va tout droit dans un milieu d'indice constant)
+    angle
+    hauteur - position (h0, x0)
+    
+
+faisceau 
+    liste de rayon
+
+Les faces:
+Dioptre
+    attributs : 
+        - indice 1 et 2
+        - rayon de courbure
+        - position selon l'axe optique
+
+    def traverse(self, rayon_incident):
+        blabla
+        senll-descartes
+
+        return rayon_sortant
+    
+
+
+Un endroit (un objet) pour mettre toutes nos lentilles
+Système optique 
+    liste de dioptres
+
+    def __add__(self, other):
+        xxxx
+
+    def traversee(self, rayon_indident):
+        faisceau = Faisceau()
+        for dioptre in self._liste_of_dioptres:
+            rayon = dioptre.traverse(self, rayon_indident)
+            faisceau.append(rayon)
+            rayon_indicent = rayon
+        return faisceau
+
+    def plot(self):
+        for dioptre in self._list_of_dioptre:
+            dioptre.plot()
+
+Lentille : système optique de deux dioptres
+
+
+
